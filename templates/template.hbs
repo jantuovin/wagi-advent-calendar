@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAGI Advent calendar</title>
+
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        * {
+            margin: 0;
+            border: 0;
+        }
+
+        main {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            min-width: 500px;
+            font-size: 24px;
+            color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1><span>🎅 + 📅 + </span>
+            <img width="24" height="24"
+                src="https://raw.githubusercontent.com/carlosbaraza/web-assembly-logo/master/dist/icon/web-assembly-icon-32px.png"
+                alt="" />
+            <span>= {{days_until_christmas}} days until Christmas.</span>
+        </h1>
+    </main>
+
+</body>
+
+</html>
