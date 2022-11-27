@@ -1,5 +1,3 @@
-default_host = "localhost:3000"
-
 [[module]]
 route = "/"
 module = "./target/wasm32-wasi/release/wagi-advent-calendar.wasm"
